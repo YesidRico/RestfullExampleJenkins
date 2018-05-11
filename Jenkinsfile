@@ -4,6 +4,7 @@ pipeline {
     stage('RestFullSpringBootDemo_Build') {
       steps {
         echo 'Construyendo...'
+        build 'RestFullSpringBootDemo_Build '
       }
     }
     stage('Test') {
